@@ -589,6 +589,28 @@ body {
   top: 120%;
   right: 2%;
 }
+.element .bg-coin-twelve {
+  position: absolute;
+  top: 194%;
+  right: 6%;
+}
+.element .bg-coin-thirdteen {
+  position: absolute;
+  top: 230%;
+  right: 12%;
+}
+.element .bg-coin-fourteen {
+  position: absolute;
+  top: 261%;
+  right: 3%;
+  z-index: -1;
+}
+.element .bg-coin-fifteen {
+  position: absolute;
+  top: 244%;
+  right: 22%;
+  z-index: -1;
+}
 .element .bg-hide-one {
   position: absolute;
   top: 197.5%;
@@ -743,6 +765,54 @@ body {
 .roadmap {
   padding-top: 150px;
 }
+.roadmap .bg-coin-sixteen {
+  position: absolute;
+  top: 360%;
+  left: 0;
+  z-index: -1;
+}
+.roadmap .bg-coin-seventeen {
+  position: absolute;
+  top: 400%;
+  right: 2%;
+  z-index: -1;
+}
+.roadmap .bg-coin-eightteen {
+  position: absolute;
+  top: 440%;
+  left: 7%;
+  z-index: -1;
+}
+.roadmap .bg-coin-nineteen {
+  position: absolute;
+  top: 467%;
+  right: 10%;
+  z-index: -1;
+}
+.roadmap .bg-coin-twenty {
+  position: absolute;
+  top: 526%;
+  right: 6%;
+  z-index: -1;
+}
+.roadmap .bg-coin-twentyone {
+  position: absolute;
+  top: 568%;
+  right: 8%;
+  z-index: -1;
+}
+.roadmap .bg-coin-twentytwo {
+  position: absolute;
+  top: 615%;
+  right: 7%;
+  z-index: -1;
+}
+.roadmap .bg-coin-twentythree {
+  position: absolute;
+  top: 578%;
+  left: 11%;
+  z-index: -1;
+}
 .roadmap .roadmap-img {
   position: absolute;
   left: 42%;
@@ -852,6 +922,42 @@ body {
 /* ======================= MEDIA ======================= */
 .shou {
   padding-top: 110px;
+}
+.shou .bg-coin-twentyfour {
+  position: absolute;
+  top: 650%;
+  left: 0%;
+  z-index: -1;
+}
+.shou .bg-coin-twentyfif {
+  position: absolute;
+  top: 665%;
+  right: 33%;
+  z-index: -1;
+}
+.shou .bg-coin-twentysix {
+  position: absolute;
+  top: 704%;
+  right: 1%;
+  z-index: -1;
+}
+.shou .bg-coin-twentyseven {
+  position: absolute;
+  top: 739%;
+  left: 4%;
+  z-index: -1;
+}
+.shou .bg-coin-twentyeight {
+  position: absolute;
+  top: 748%;
+  right: 18%;
+  z-index: -1;
+}
+.shou .bg-coin-twentynine {
+  position: absolute;
+  top: 790%;
+  left: 17%;
+  z-index: -1;
 }
 .shou .bg-hide-three {
   position: absolute;
