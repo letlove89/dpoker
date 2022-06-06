@@ -1,0 +1,45 @@
+// @media only screen and (max-width: 767px) {
+//     .container {
+//         max-width: 100% !important;
+//     }
+
+//     header {
+//         height: auto;
+//     }
+
+//     .menu {
+//         width: 100%;
+//         flex-wrap: wrap;
+
+//         .menu__nav {
+//             width: 100%;
+//             flex-wrap: wrap;
+
+//             .nav {
+//                 width: 100%;
+//                 flex-wrap: wrap;
+//                 display: block;
+//                 max-height: 0;
+//                 overflow: hidden;
+//                 transition: 0.5s;
+
+//                 .mb-10 {
+//                     margin-bottom: 10px;
+//                 }
+//             }
+
+//             .nav.active {    
+//                 transition: 1s ease;
+//             }
+
+//             .nav.java {
+//                 max-height: 100vh;
+//             }
+//         }
+
+//         .button__menu {
+//             display: block;
+//         }
+
+//     }
+// }

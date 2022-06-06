@@ -613,12 +613,13 @@ body {
 }
 .element .bg-hide-one {
   position: absolute;
-  top: 197.5%;
+  top: 187.5%;
+  left: 2%;
 }
 .element .bg-hide-two {
   position: absolute;
-  left: 2%;
-  top: 180%;
+  left: 0%;
+  top: 171%;
 }
 .element .element__title h2 {
   font-style: normal;
@@ -627,14 +628,6 @@ body {
   line-height: 64px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #FFD601;
-}
-.element .element__content {
-  width: 100%;
-  height: 100vh;
-  display: grid;
-  row-gap: 30px;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
 }
 .element .element__content .card {
   width: auto;
@@ -963,7 +956,8 @@ body {
 }
 .shou .bg-hide-three {
   position: absolute;
-  left: 2%;
+  left: 0%;
+  top: 685%;
 }
 .shou .shou__title h2 {
   font-style: normal;
