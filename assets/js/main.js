@@ -1,3 +1,24 @@
+/* ------------------------------- MENU HAMBERGER ------------------------------- */
+
+var navigation = {
+  init:function(){
+      this.navigationResponsive();
+  },
+  navigationResponsive:function(){
+      var listMenu = document.querySelector('.menu .menu__nav .nav');
+      var buttonMenu = document.querySelector('.menu .button__menu');
+      
+      buttonMenu.addEventListener('click',function(){
+      listMenu.style.setProperty("--childenNumber", listMenu.children.length);
+
+      buttonMenu.classList.toggle("active");
+      listMenu.classList.toggle('java');  /* click chuot 2 lan 'toggle' */
+      });
+  },
+}
+navigation.init();
+
+
 // ================= HIDE AND SHOW FAQS
 function showFaqs() {
   var display = document.getElementById("faqShow").style.display;

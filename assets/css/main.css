@@ -20,6 +20,51 @@ header {
 .menu .menu__logo {
   padding: 18px 0 8px 0;
 }
+.menu .button__menu {
+  position: fixed;
+  top: 2%;
+  right: 8%;
+  height: auto;
+  width: 30px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity 0.25s ease;
+  border: 0;
+  background-color: transparent;
+  display: none;
+}
+.menu .button__menu:hover {
+  opacity: 0.7;
+}
+.menu .button__menu.active .top {
+  transform: translateY(10px) translateX(0) rotate(40deg);
+  background: #fff;
+}
+.menu .button__menu.active .middle {
+  opacity: 0;
+  background: #FFD601;
+}
+.menu .button__menu.active .bottom {
+  transform: translateY(-10px) translateX(0) rotate(-40deg);
+  background: #fff;
+}
+.menu .button__menu span {
+  background: #fff;
+  border: none;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+.menu .button__menu span:nth-of-type(2) {
+  top: 10px;
+}
+.menu .button__menu span:nth-of-type(3) {
+  top: 20px;
+}
 .menu .menu__nav .nav .active {
   background-color: #ffffff !important;
   color: #f4511e !important;
@@ -608,7 +653,7 @@ body {
 
 /* ======================= ELEMENT ======================= */
 .element {
-  padding-top: 153px;
+  padding: 153px 0 50px;
 }
 .element .element__title h2 {
   font-style: normal;
@@ -619,7 +664,7 @@ body {
   color: #FFD601;
 }
 .element .element__content .card {
-  width: auto;
+  height: auto;
   background: transparent;
   margin-right: 15px;
   margin-top: 20px;
@@ -658,7 +703,7 @@ body {
   padding: 0 26px 5px;
 }
 .element .pb-20 {
-  padding-bottom: 20px;
+  padding-bottom: 20px !important;
 }
 
 /* ======================= JOIN ======================= */

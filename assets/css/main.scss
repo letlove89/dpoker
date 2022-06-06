@@ -222,7 +222,7 @@ body{
   //   left: 0%;
   //   top: 171%;
   // }
-  padding-top: 153px;
+  padding: 153px 0 50px;
   
   .element__title{
     h2{
@@ -236,7 +236,7 @@ body{
   }
   .element__content{   
     .card{
-      width: auto;
+      height: auto;
       background: transparent;
       margin-right: 15px;
       margin-top: 20px;
@@ -265,6 +265,7 @@ body{
           line-height: 22px;
           color: $color-font-light;
           padding: 0 28px;
+          
         }
         .card-content__p{
           margin-bottom: 0;
@@ -279,7 +280,7 @@ body{
     
   }
   .pb-20{
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
   }
 }
 
