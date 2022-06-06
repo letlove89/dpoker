@@ -1,9 +1,33 @@
-// @media only screen and (max-width: 767px) {
-//
+
 
 @media only screen and (max-width: 1440px) {
 }
 @media only screen and (max-width: 1024px) {
+  .menu{
+    .menu__nav {
+      .nav {
+        .active {
+          background-color: $color-bg-light !important;
+          color: #f4511e !important;
+        }
+      }
+      .nav{
+        .nav-item{
+          .nav-link{
+            padding: 0.5rem 18px;
+          }
+        }
+      }
+    }
+  }
+  
+  .roadmap{
+    .roadmap-img{
+      position: absolute;
+      left: 38% !important;
+    }
+  }
+  
 }
 @media only screen and (max-width: 768px) {
   // ====== Menu
@@ -43,8 +67,56 @@
       display: block;
     }
   }
+
+  // ====== Roadmap
+  #cd-timeline {
+    display: block !important;
+  }
+  .roadmap{
+    display: none;
+  }
+
+  // Faq
+  .faq {
+    .faq__content{
+      .faq__content-item{
+        .item__btn{
+          width: 690px !important;
+        }
+      }
+    }
+  }  
+  // Shou
+  .shou{
+    .shou__icon{
+      height: auto !important;
+    }
+  }
 }
 @media only screen and (max-width: 425px) {
+  // Faq
+  .faq {
+    .faq__content{
+      .faq__content-item{
+        .item__btn{
+          width:auto !important;
+          height: auto !important;
+        }
+      }
+    }
+  }  
 }
 @media only screen and (max-width: 375px) {
+  .faq {
+    .faq__content{
+      .faq__content-item{
+        .item__btn{
+          .item__text{
+            padding: 0 45px 0 37px !important;
+          }
+        }
+      }
+    }
+  } 
+    
 }
