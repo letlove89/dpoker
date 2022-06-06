@@ -1,0 +1,518 @@
+@import "mixin";
+@import "variable";
+@import "header";
+@import "footer";
+@import "reset";
+@import "font";
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: $color-menu;
+}
+/* ======================= BANNER ======================= */
+.banner {
+  .bg-coin-one{
+    position: absolute;
+    top: 15.5%;
+    left: 43%;
+  }
+  .bg-coin-two{
+    position: absolute;
+    top: 67%;
+    right: 8%;
+  }
+  .bg-coin-three{
+    position: absolute;
+    top: 62%;
+    left: 9%;
+  }
+  .bg-coin-four{
+    position: absolute;
+    top: 11%;
+    right: 6%;
+  }
+  .bg-coin-five{
+    position: absolute;
+    top: 13%;
+    right: 30%;
+  }
+  .bg-coin-six{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+  }
+  .bg-coin-seven{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+  }
+  .bg-coin-eight{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+  padding: 166px 0 50px 0;
+  .banner__content {
+    padding: 50px 0 0 0;
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+      line-height: 34px;
+      color: $color-main;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 18px;
+      letter-spacing: 0.075em;
+      color: $color-second;
+      margin-bottom: 49px;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 40px;
+      color: $color-font-light;
+      padding-right: 16px;
+    }
+    .banner__content-btn {
+      .btn {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .btn__regis {
+        padding: 16px 40px;
+        background-color: $color-main;
+        border-radius: 8px;
+      }
+    }
+  }
+  .banner__box {
+    width: 100%;
+    height: auto;
+    background: $color-bg-grey;
+    backdrop-filter: blur(56px);
+    border-radius: 12px;
+    text-align: center;
+    .banner__box-img {
+      padding: 15px 15px 10px;
+    }
+    .banner__box-btn {
+      button {
+        background: inherit;
+        backdrop-filter: blur(56px);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 25px;
+        text-align: center;
+        color: $color-font-light;
+        padding: 13px 17px;
+      }
+    }
+  }
+}
+
+/* ======================= DPOKER ======================= */
+.dpoker {
+  padding: 166px 0 0 0;
+  .dpoker__content {
+    
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 64px;
+      color: $color-main;
+      margin-bottom: 13px;
+    }
+    h4 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 18px;
+      letter-spacing: 0.075em;
+      color: $color-second;
+      margin-bottom: 49px;
+    }
+    p {
+      text-align: justify;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 40px;
+      color: $color-font-light;
+    }
+    .p-100{
+      padding-right: 90px;
+    }
+    .dpoker__content-btn {
+      .btn {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+      }
+      .btn__regis {
+        padding: 16px 40px;
+        background-color: $color-main;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+
+/* ======================= ELEMENT ======================= */
+.element{
+  .bg-coin-nine{
+    position: absolute;
+    top: 143%;
+    left: 4%;
+  }
+  .bg-coin-ten{
+    position: absolute;
+    top: 146%;
+    left: 40%;
+  }
+  .bg-coin-eleven{
+    position: absolute;
+    top: 120%;
+    right: 2%;
+  }
+  .bg-hide-one{
+    position: absolute;
+    top: 197.5%;
+  }
+  .bg-hide-two{
+    position: absolute;
+    left: 2%;
+    top: 180%;
+  }
+  padding-top: 153px;
+  height: 1300px;
+  .element__title{
+    h2{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 64px;
+      font-feature-settings: 'pnum' on, 'lnum' on;
+      color: $color-main;
+    }
+  }
+  .element__content{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 30px;
+    column-gap: 15px;    
+    .card{
+      width: auto;
+      background: white;
+      margin-right: 15px;
+      margin-top: 20px;
+      backdrop-filter: blur(56px);
+      border-radius: 12px;  
+      transition: .5s ease;
+      border: 3px solid $color-main;
+      cursor: pointer;
+      text-align: center;
+      .card-img{
+        padding: 7px;
+      }
+      .card-content{
+        h3{
+          padding-top: 26px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 22px;
+          color: $color-main;
+        }
+        p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: $color-font-black;
+          padding: 0 28px;
+        }
+        .card-content__p{
+          margin-bottom: 0;
+          
+        }
+        .card-content__pone{
+          margin: 0;
+          padding: 0 26px 5px;
+        }
+      }
+    }
+    
+  }
+}
+
+/* ======================= JOIN ======================= */
+.join{
+  background-image: url(../images/4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  .join__title{
+    text-align: center;
+    margin-bottom: 40px;
+    h2{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 130%;
+      color: $color-main;
+    }
+  }
+  .join__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 7%;
+    .card{
+      justify-content: center;
+      align-items: center;
+      width: 330.84px;
+      height: 292px;
+      background: inherit;
+      margin: 22px 19px;
+      backdrop-filter: blur(56px); 
+      transition: .5s ease;
+      border: 1px solid $color-line;
+      cursor: pointer;
+      text-align: center;
+      
+      .card-img{
+        width: 58px;
+        // padding: 7px;
+      }
+      .img-4-2{
+        width: 88px;
+      }
+      .img-4-4{
+        width: 81px;
+        margin-top: 20px;
+      }
+      .card-content{
+        .h-4-2{
+          padding: 12px 40px;
+        }
+        .p-4-2{
+          margin: 0;
+        }
+        .h-4-3{
+          padding: 33px 20px 0px;
+        }
+        .h-4-4{
+          padding: 33px 60px 0;
+        }
+        h3{
+          padding-top: 33px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 130%;
+          color: $color-main;
+        }
+        p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 18px;
+          color: $color-font-light;
+          padding: 0 38px;
+        }
+        .card-content__p{
+          margin-bottom: 0;
+          
+        }
+        .card-content__pone{
+          margin: 0;
+          padding: 0 26px 5px;
+        }
+      }
+    }
+  }
+}
+
+/* ======================= ROADMAP ======================= */
+.roadmap{
+  padding-top: 150px;
+  .roadmap-img{
+    position: absolute;
+    left: 42%;
+  }
+  .roadmap__title{
+    h3{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 130%;
+      color: $color-main;
+    }
+  }
+  .roadmap__content{
+    .roadmap__content-quater{
+      h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 110%;
+        color: $color-main;
+      }
+      .quater-line{
+        img{
+          padding-right: 10px;
+        }
+        p{
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 15px;
+          color: $color-font-light;
+          opacity: 0.8;
+        }
+      }
+    }
+    .quater-center{
+      padding: 120px 100px;
+    }
+  }
+}
+
+/* ======================= FAQS ======================= */
+.faq{
+  padding-top: 150px;
+  .faq__title{
+    h2{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 64px;
+      text-align: center;
+      color: $color-main;
+    }
+  }
+  .faq__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .faq__content-item{
+      padding: 12px 0;
+      .item__btn{
+        width: 838px;
+        height: 85px;
+        background: $color-bg;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 48px;
+        color: $color-font-light;
+        padding: 13px;
+        i{
+          transition: all 0.5s ease;
+          .open & {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+          }
+        }
+        .item__number{
+          width: 60px;
+          height: 60px;
+          background-color: $color-number;
+          color: $color-font-light;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .item__text{
+          padding: 0 90px 0 57px;
+          width: 85%;
+          text-align: left;
+        }
+        .chew.active{
+          color: $color-main;
+        }
+      }
+      .item__answer{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: $color-font-light;
+        opacity: 0.8;
+        margin-left: 15.5%;
+        padding-top: 18px;
+        transition: all 0.3s;
+      }
+      i{
+        font-size: 2rem;
+        line-height: 0;
+        transition: all 0.5;
+      }
+    }
+  }
+}
+
+/* ======================= MEDIA ======================= */
+
+.shou{
+  .bg-hide-three{
+    position: absolute;
+    left: 2%;
+  }
+  padding-top: 110px;
+  .shou__title{
+    h2{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 64px;
+      text-align: center;
+      color: $color-main;
+    }
+  }
+  .shou__icon{
+    height: 302px;
+    background: $color-bg-blur;
+    backdrop-filter: blur(90px);
+    .shou__content{
+      img{
+        padding: 27px;
+      }
+    }
+  }
+  .shou__icon-thin{
+    height: 200px;
+  }
+  .shou-no-bg{
+    background: transparent;
+    backdrop-filter: blur(0px);
+  }
+}
+.space-shou{
+  padding-bottom: 145px;
+  background: transparent;
+}
+
+

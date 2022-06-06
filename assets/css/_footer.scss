@@ -1,0 +1,186 @@
+/* ------------------------------- FOOTER ------------------------------- */
+
+.footer {
+  background: $color-bg-grey;
+  position: relative;
+  .footer-logo {
+    padding: 30px 0;
+  }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer-content {
+    position: relative;
+    z-index: 2;
+    .footer-widget {
+      ul > li > a {
+        color: $color-font-light;
+      }
+      form{
+        
+        background-color: $color-bg-light;
+        label{
+          color: $color-font-black;
+        }
+      }
+    }
+    .footer-menu{
+      padding: 20px 0;
+      ul>li>a{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 36px;
+        letter-spacing: -0.165px;
+        color: $color-font-footer;
+      }
+    }
+    .footer-paper{
+      padding: 20px 0;
+      ul>li>a{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: $color-font-black;
+        background-color: $color-second;
+        padding: 2px 7px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+      }
+    }
+    .footer-form{
+      margin-bottom: 50px;
+      h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: $color-font-grey;
+        margin-bottom: 20px;
+      }
+      form{
+        padding: 20px;
+        label{
+          span{
+            vertical-align: top;
+            display: inline-block;
+            padding: 0.5em;
+          }
+          input{
+            border: none;
+          }
+          textarea{
+            border: none;
+          }
+        }
+      }
+      .form-submit{
+        padding-top: 8px;
+        text-align: end;
+        .submit-btn{
+          background-color: $color-main;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 19px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: 0.02em;
+        }
+        .btn{
+          box-shadow: 0px 13px 17px rgba(119, 87, 239, 0.2);
+          border-radius: 5px;
+          padding: 8px 28px;
+        }
+      } 
+    }
+    .footer__note{
+      h5{
+        color: $color-main;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.165px;
+      }
+      p{
+        margin: 0;
+        color: $color-font-light;
+        text-align: justify;
+      }
+    }
+    .footer__info{
+      h4{
+        color: $color-font-light;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        padding-bottom: 25px;
+      }
+      .footer__info-social{
+        .social-icons{
+          display: flex;
+          li{
+            padding: 0 17px;
+          }
+        }
+      }
+    }
+  }
+  .footer__wrapper{
+    display: flex;
+    justify-content: end;
+    padding-bottom: 60px;
+    .select {
+      position: relative;
+      display: flex;
+      width: 8em;
+      height: 3em;
+      line-height: 3;
+      background: $color-bg-grey;
+      overflow: hidden;
+      border-radius: .25em;
+      select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        outline: 0;
+        box-shadow: none;
+        border: 0 !important;
+        background: $color-bg-lang;
+        background-image: none;
+        flex: 1;
+        padding: 0 .5em;
+        color: $color-font-light;
+        cursor: pointer;
+      }
+    }
+    /* thiết kế dấu mũi tên */
+    .select::after {
+      content: '\25BC';
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0 1em;
+      background: transparent;
+      cursor: pointer;
+      pointer-events: none;
+      -webkit-transition: .25s all ease;
+      -o-transition: .25s all ease;
+      transition: .25s all ease;
+      color: $color-font-light;
+    }
+    /* Transition */
+    .select:hover::after {
+      color: $color-main;
+      transform: rotate(180deg);
+    }
+  }
+}
+.pr-24{
+  padding-right: 24px !important;
+}

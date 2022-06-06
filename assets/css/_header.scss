@@ -1,0 +1,58 @@
+header {
+  font-family: "Chakra Petch";
+  background-color: $color-menu;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 9999;
+}
+
+.menu {
+  color: $color-font-light;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .menu__logo {
+    padding: 18px 0 8px 0;
+  }
+
+  .menu__nav {
+    
+    .nav {
+      .active {
+        background-color: $color-bg-light !important;
+        color: #f4511e !important;
+      }
+    }
+    .nav{
+      .nav-item{
+        .nav-link{
+          padding: 0.5rem 30px;
+        }
+        .nav-item__main{
+          color: $color-main;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 32px;
+        }
+      }
+    }
+  }
+  .menu__nav ul li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $color-font-light;
+  }
+  .menu__nav ul li a:hover {
+    color: $color-main;
+  }
+}
