@@ -67,7 +67,18 @@
       display: block;
     }
   }
+  // ====== Banner
+  .banner{
+    .banner__content{
+      text-align: center;
+    }
+  }
 
+  .dpoker{
+    .dpoker__content{
+      text-align: center;
+    }
+  }
   // ====== Roadmap
   #cd-timeline {
     display: block !important;
@@ -88,6 +99,11 @@
   }  
   // Shou
   .shou{
+    .shou__title{
+      h2{
+        font-size: 30px !important;
+      }
+    }
     .shou__icon{
       height: auto !important;
     }
@@ -99,12 +115,20 @@
     .faq__content{
       .faq__content-item{
         .item__btn{
-          width:auto !important;
+          width:100%!important;
           height: auto !important;
+          font-size: 16px !important;
         }
       }
     }
   }  
+  .shou{
+    .shou__title{
+      h2{
+        font-size: 30px !important;
+      }
+    }
+  } 
 }
 @media only screen and (max-width: 375px) {
   .faq {
@@ -118,5 +142,11 @@
       }
     }
   } 
-    
+  .shou{
+    .shou__title{
+      h2{
+        font-size: 30px !important;
+      }
+    }
+  } 
 }

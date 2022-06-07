@@ -502,6 +502,14 @@ button {
     display: block;
   }
 
+  .banner .banner__content {
+    text-align: center;
+  }
+
+  .dpoker .dpoker__content {
+    text-align: center;
+  }
+
   #cd-timeline {
     display: block !important;
   }
@@ -514,19 +522,31 @@ button {
     width: 690px !important;
   }
 
+  .shou .shou__title h2 {
+    font-size: 30px !important;
+  }
   .shou .shou__icon {
     height: auto !important;
   }
 }
 @media only screen and (max-width: 425px) {
   .faq .faq__content .faq__content-item .item__btn {
-    width: auto !important;
+    width: 100% !important;
     height: auto !important;
+    font-size: 16px !important;
+  }
+
+  .shou .shou__title h2 {
+    font-size: 30px !important;
   }
 }
 @media only screen and (max-width: 375px) {
   .faq .faq__content .faq__content-item .item__btn .item__text {
     padding: 0 45px 0 37px !important;
+  }
+
+  .shou .shou__title h2 {
+    font-size: 30px !important;
   }
 }
 html {
@@ -540,46 +560,6 @@ body {
 /* ======================= BANNER ======================= */
 .banner {
   padding: 166px 0 50px 0;
-}
-.banner .bg-coin-one {
-  position: absolute;
-  top: 15.5%;
-  left: 43%;
-}
-.banner .bg-coin-two {
-  position: absolute;
-  top: 67%;
-  right: 8%;
-}
-.banner .bg-coin-three {
-  position: absolute;
-  top: 62%;
-  left: 9%;
-}
-.banner .bg-coin-four {
-  position: absolute;
-  top: 11%;
-  right: 6%;
-}
-.banner .bg-coin-five {
-  position: absolute;
-  top: 13%;
-  right: 30%;
-}
-.banner .bg-coin-six {
-  position: absolute;
-  top: 10%;
-  left: 3%;
-}
-.banner .bg-coin-seven {
-  position: absolute;
-  top: 40%;
-  left: 34%;
-}
-.banner .bg-coin-eight {
-  position: absolute;
-  top: 20%;
-  left: 40%;
 }
 .banner .banner__content {
   padding: 50px 0 0 0;
